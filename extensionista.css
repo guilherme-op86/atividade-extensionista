@@ -1,0 +1,35 @@
+body{
+    font-size: 67.5%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
+    font-family: sans-serif;
+    background-color: bisque;
+}
+
+.titulo{
+    font-size: 3.2rem;
+}
+
+.hospital{
+    padding: 1rem;
+    background-color: rgb(241, 237, 231);
+    border-left: 1rem solid;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+}
+
+.verde{
+    border-color: green;
+}
+
+.amarelo{
+    border-color: yellow;
+}
+
+.vermelho{
+    border-color: red;
+}
