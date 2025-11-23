@@ -20,7 +20,7 @@ const hospitais = [
         nome: "Hospital São Lucas",
         totalLeitos: 90, 
         leitosOcupados: 70, 
-        especialidades: ["Cardiologia", "Clinico Geral", "Oncologia"]
+        especialidades: ["Cardiologia", "Clínico Geral", "Oncologia"]
     }
 ]
 //calcula a porcentagem de leitos ocupados
