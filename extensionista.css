@@ -7,7 +7,7 @@ body{
     flex-direction: column;;
     align-items: center;
     font-family: sans-serif;
-    background-color: bisque;
+    background-color: #e3f2fd;
 }
 
 .titulo{
@@ -19,17 +19,23 @@ body{
     background-color: rgb(241, 237, 231);
     border-left: 1rem solid;
     font-size: 1.6rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .verde{
     border-color: green;
+    background-color: #E8F5E9; 
+
 }
 
 .amarelo{
     border-color: yellow;
+    background-color: #FFF8E1;
+
 }
 
 .vermelho{
     border-color: red;
+    background-color: #FFEBEE; 
+
 }
