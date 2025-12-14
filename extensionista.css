@@ -61,4 +61,6 @@ body{
 .campanha-dengue{
     font-size: 1.6rem;
     width: 80%;
+    letter-spacing: .1rem;
+    line-height: 2.2rem;
 }
