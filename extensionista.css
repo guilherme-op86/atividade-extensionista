@@ -39,3 +39,26 @@ body{
     background-color: #FFEBEE; 
 
 }
+
+.hero-banner{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-nav{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    list-style-type: none;
+}
+
+.menu-nav li a{
+    text-decoration: none;
+}
+
+.campanha-dengue{
+    font-size: 1.6rem;
+    width: 80%;
+}

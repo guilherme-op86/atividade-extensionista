@@ -44,7 +44,7 @@ hospitais.forEach(hospital =>{
     novaDiv.className = `hospital ${cor}`
     novaDiv.innerHTML = `
     <h2><strong>${hospital.nome}</strong></h2>
-    <p><strong>Lotaçaõ:</strong> ${lotacao.toFixed(1)}%</p>
+    <p><strong>Lotação:</strong> ${lotacao.toFixed(1)}%</p>
     <p><strong>Especialidades:</strong> ${hospital.especialidades.join(", ")}</p>
     `
     //cria as div com as características definidas no forEach()
