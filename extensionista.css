@@ -4,14 +4,15 @@ body{
     padding: 0;
     box-sizing: border-box;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;;
-    align-items: center;
     font-family: sans-serif;
     background-color: #e3f2fd;
 }
 
 .titulo{
     font-size: 3.2rem;
+    text-align: center;
 }
 
 .hospital{
@@ -20,6 +21,17 @@ body{
     border-left: 1rem solid;
     font-size: 1.6rem;
     margin-bottom: 2rem;
+    width: 80vw;
+    
+}
+
+.hospitais-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .verde{
@@ -58,9 +70,23 @@ body{
     text-decoration: none;
 }
 
+.main-title{
+    text-align: center;
+    font-size: 2.8rem;
+}
+
+.subtitle{
+    text-align:left;
+    font-size: 2rem;
+    margin-left: 3rem;
+
+}
+
 .campanha-dengue{
     font-size: 1.6rem;
     width: 80%;
     letter-spacing: .1rem;
     line-height: 2.2rem;
+    margin-left: 3rem;
+
 }
